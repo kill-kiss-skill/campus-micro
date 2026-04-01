@@ -1,4 +1,3 @@
-
 server:
   port: 8888
 
@@ -10,24 +9,27 @@ spring:
   cloud:
     nacos:
       discovery:
+        # 强制网关用127.0.0.1注册，解决IP异常问题
+        ip: 127.0.0.1
         server-addr: localhost:8848
         username: nacos
         password: nacos
     gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
       routes:
-        - id: user-service
-          uri: lb://user-service
-          predicates:
-            - Path=/api/user/**
-        - id: product-service
-          uri: lb://product-service
-          predicates:
-            - Path=/api/product/**
-        - id: order-service
-          uri: lb://order-service
-          predicates:
-            - Path=/api/order/**
         - id: notice-service
           uri: lb://notice-service
           predicates:
             - Path=/api/notice/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origin-patterns: "*"
+            allowed-methods: "*"
+            allowed-headers: "*"
+            allow-credentials: true
