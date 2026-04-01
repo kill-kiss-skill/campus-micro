@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be469455-fccb-40a7-b7dc-cd74d420a56c" name="更改" comment="校园服务微服务管理平台项目框架">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/campus/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/campus/user/common/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/campus/user/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/campus/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/campus/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/campus/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/campus/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/campus/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/campus/user/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,25 +63,26 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/t/桌面/作业/Java开发/campus-micro-service/notice-service/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "spring.configuration.checksum": "4e55b5bd458b7c8881233e45151ecc07",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
     </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gateway-server" />
@@ -86,16 +96,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="lua.app" factoryName="Lua Application">
-      <option name="program" value="lua.exe" />
-      <option name="file" value="" />
-      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
-      <option name="debuggerType" value="1" />
-      <option name="params" value="" />
-      <option name="charset" value="UTF-8" />
-      <option name="showConsole" value="true" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -115,6 +115,8 @@
       <workItem from="1775004598755" duration="831000" />
       <workItem from="1775005454394" duration="1133000" />
       <workItem from="1775006650993" duration="707000" />
+      <workItem from="1775010873448" duration="1873000" />
+      <workItem from="1775032732288" duration="5056000" />
     </task>
     <task id="LOCAL-00001" summary="校园服务微服务管理平台项目框架">
       <option name="closed" value="true" />
@@ -160,7 +162,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/user-service/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/user-service/src/main/java/com/campus/user/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -181,5 +183,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
