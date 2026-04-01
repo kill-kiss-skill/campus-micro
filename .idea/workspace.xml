@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be469455-fccb-40a7-b7dc-cd74d420a56c" name="更改" comment="校园服务微服务管理平台项目框架">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="be469455-fccb-40a7-b7dc-cd74d420a56c" name="更改" comment="校园服务微服务管理平台项目框架v1.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +109,7 @@
       <workItem from="1774857442197" duration="3078000" />
       <workItem from="1775004598755" duration="831000" />
       <workItem from="1775005454394" duration="1133000" />
-      <workItem from="1775006650993" duration="707000" />
+      <workItem from="1775006650993" duration="1134000" />
     </task>
     <task id="LOCAL-00001" summary="校园服务微服务管理平台项目框架">
       <option name="closed" value="true" />
@@ -124,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774859293635</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="校园服务微服务管理平台项目框架v1.0">
+      <option name="closed" value="true" />
+      <created>1775007535251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775007535251</updated>
+    </task>
+    <task id="LOCAL-00003" summary="校园服务微服务管理平台项目框架v1.0">
+      <option name="closed" value="true" />
+      <created>1775007785804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775007785804</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +155,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="校园服务微服务管理平台项目框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="校园服务微服务管理平台项目框架" />
+    <MESSAGE value="校园服务微服务管理平台项目框架v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="校园服务微服务管理平台项目框架v1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
