@@ -9,7 +9,6 @@ spring:
   cloud:
     nacos:
       discovery:
-        # 强制网关用127.0.0.1注册，解决IP异常问题
         ip: 127.0.0.1
         server-addr: localhost:8848
         username: nacos
@@ -19,13 +18,41 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
+      # 👇 4个服务完整路由
       routes:
+        # 公告服务
         - id: notice-service
           uri: lb://notice-service
           predicates:
             - Path=/api/notice/**
           filters:
             - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+        # 商品服务
+        - id: product-service
+          uri: lb://product-service
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+        # 用户服务
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/api/user/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+        # 订单服务
+        - id: order-service
+          uri: lb://order-service
+          predicates:
+            - Path=/api/order/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+      # 全局跨域
       globalcors:
         cors-configurations:
           '[/**]':
