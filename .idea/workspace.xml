@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be469455-fccb-40a7-b7dc-cd74d420a56c" name="更改" comment="校园服务微服务管理平台项目框架v1.0" />
+    <list default="true" id="be469455-fccb-40a7-b7dc-cd74d420a56c" name="更改" comment="校园服务微服务管理平台项目框架v1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,13 +44,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "gateway",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "E:/t/桌面/作业/Java开发/campus-micro-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/t/桌面/作业/Java开发/campus-micro-service/notice-service/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
@@ -109,7 +112,7 @@
       <workItem from="1774857442197" duration="3078000" />
       <workItem from="1775004598755" duration="831000" />
       <workItem from="1775005454394" duration="1133000" />
-      <workItem from="1775006650993" duration="1134000" />
+      <workItem from="1775006650993" duration="1989000" />
     </task>
     <task id="LOCAL-00001" summary="校园服务微服务管理平台项目框架">
       <option name="closed" value="true" />
